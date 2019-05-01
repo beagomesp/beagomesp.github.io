@@ -1,0 +1,19 @@
+/* Meu CSS */
+body{
+	background: black;
+}
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+.redes-sociais li{
+	margin-right: 5px;
+}
+.redes-sociais li a{
+	font-size: 40px;
+}
+.espaco{
+    margin: 80px 0;
+}
