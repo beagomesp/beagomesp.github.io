@@ -1,12 +1,4 @@
-.ftotopo {
-    position: absolute;
-    top: 120px;
-    right: 60px;
-    border-radius: 60%;
-    border: 15px solid transparent;
-  }
-  
-  ul.circle {
+ ul.circle {
     list-style-type: circle;
   }
   
