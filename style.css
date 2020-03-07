@@ -346,4 +346,49 @@
     color: #343436;
     opacity: 0.7;
   }
+
+/* The Magic Float Center Code */
+.float_center {
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+
+
+/* style */
+
+
+
+
+#listcourse {
+  width: 500px;
+  margin: 20px auto 0 auto;
+}
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:10px 0;
+}
+ul li {
+  float: left;
+  list-style-type: none;
+  margin: 0 6px;
+}
+ul a {
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px 4px;
+  background-color: #ffffff;
+}
   
